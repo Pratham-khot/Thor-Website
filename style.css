@@ -8,60 +8,56 @@
     width: 100%;
     height: 55vh;
     padding: 16px 100px;
-    /* display: flex;
-    justify-content: center; */
 }
 .head1{
     display: flex;
     justify-content: flex-start;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-
 }
 .headlogo{
     display: flex;
     justify-content: flex-start;
     color: #F9FAF8;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 24px;
-    
+    margin-left: 60px;
 }
 .headlink{
     display: flex;
-    
-    /* justify-content: flex-start; */
     gap: 20px;
-    
+    justify-content: center;
+    align-items: center;
     color: #E5E7EB;
     font-weight: 18px;
     margin-left: 500px;
     margin-top: 10px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px; 
 }
 .head2{
     display: flex;
-    padding-top: 20px;
-    align-items: ;
+    padding-top: 20px;   
 }
 .headmain{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 330px;
+    width: 400px;
     gap: 20px;
     font-weight: 18px;
     padding-bottom: 10px;
-    
+    margin-left: 60px;   
 }
 .headmain h1{
     color: #F9FAF8;
     font-weight: 900px;
     font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .headmain p{
      color: #E5E7EB;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 18px;
 }
 .headmain #main{
     background-color: #3882F6;
@@ -70,20 +66,19 @@
     width: 8vw;
     color: white;
     border: 1px solid #3882F6;
-    
-    
 }
 .placeholder1{
     display: flex;
     background-color: grey;
-    width: 400px;
+    width: 420px;
     height: 220px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 75px;
     color: #E5E7EB;
     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .centername{
     background-color: white;
@@ -91,7 +86,8 @@
     justify-content: center;
     padding-top: 20px;
     color: #1F2937;
-
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
 }
 .boxes{
     background-color: white;
@@ -99,53 +95,72 @@
     justify-content: space-evenly;
     padding: 16px 100px;
     width: 100%;
-    /* height: 40vh; */
 }
 .box1,.box2,.box3,.box4{
     margin-top: 20px;
     width: 150px;
     height: 150px;
     border: 3px solid #3882F6;
-    border-radius: 5px;
-    gap: 10px;
-    
+    border-radius: 10px;
+    gap: 5px;
+}
+.box1{
+    margin-left: 100px;
+}
+.box4{
+    margin-right: 100px;
 }
 .boxtext{
     background-color: white;
     display: flex;
     justify-content: space-evenly;
     padding: 5px 100px;
-    
 }
 .box1t,.box2t,.box3t,.box4t{
     color: black;
     width: 150px;
     height: 100px;
-    text-align: center;
+    text-align:center;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     font-weight: 5px;
     gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1t{
+    margin-left: 100px;
+}
+.box4t{
+    margin-right: 100px;
 }
 .paradiv{
     background-color: lightgray;
-    padding: 16px 100px;
+    padding: 16px 50px;
     color: #1F2937;
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     font-weight: 36px;
     font-style: italic;
-    justify-content: center;
-    align-content: center;
-    padding-left: 450px;
-    padding-right: 450px;
+    justify-content: start;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .paradiv span{
+    display: flex;
+    justify-content:flex-end;
     color: #1F2937;
     font-weight:30px;
     font-style: normal;
-   
+    align-items: flex-end;
     padding-left: 200px;
+    font-size: 35px;
 }
 .last
 {
@@ -155,6 +170,7 @@
     height: 40vh;
     width: 100%;
     background-color:white ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .lastdiv {
     display: flex;
@@ -164,7 +180,6 @@
     padding: 5px 15px;
     width: 70vw;
     height: 20vh;
-    
     border: 1px solid #3882F6;
 }
 .lastcont{
@@ -178,19 +193,20 @@
     padding-left: 50px;
 }
 .lastcont span{
-    font-weight: 50px;
+    font-weight: 30px;
     display: flex;
 }
 .lastcont p{
     color: light whitesmoke;
     font-weight: 5px;
+    font-size: 13px;
 }
 .lastbutton button{
     background-color: #3882F6;
     color: white;
     border-radius: 3px;
-    border: 1px solid white;
-    padding: 5px 15px;
+    border: 2px solid white;
+    padding: 5px 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -204,5 +220,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-family: Arial, Helvetica, sans-serif; 
 }
